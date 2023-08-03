@@ -1,0 +1,53 @@
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    .wrapper {
+        padding: 20px 40px;
+        background-color: red;
+        // width: 40vw;
+        box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+
+        form {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            width: 30vw;
+
+            h1 {
+                margin-bottom: 15px;
+                color: white;
+                font-size: 40px;
+            }
+
+            input {
+                width: 70%;
+                padding: 15px 30px;
+                border: none;
+                outline: none;
+                border-radius: 12px;
+                margin-bottom: 15px;
+            }
+
+            button {
+                width: 30%;
+                padding: 10px 25px;
+                margin-right: 10px;
+                border-radius: 12px;
+                border: none;
+                cursor: pointer;
+                font-weight: bold;
+                font-size: 15px;
+                background-color: rgb(187, 185, 185);
+                background-color: limegreen;
+                color: white;
+            }
+        }
+    }
+}

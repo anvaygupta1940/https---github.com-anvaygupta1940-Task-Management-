@@ -1,0 +1,26 @@
+.listcard {
+    margin: 1rem 0px;
+    font-size: 15px;
+    border-bottom: 1px solid gray;
+    padding: 10px 0px;
+    font-weight: 400;
+    width: 99%;
+    margin: 1rem auto;
+    border: 1px solid black;
+    border-radius: 12px;
+
+    li {
+        flex: 1;
+        cursor: pointer;
+
+        button {
+            margin-right: 0.5rem;
+            cursor: pointer;
+        }
+    }
+}
+
+.complete {
+    background-color: green;
+    color: white;
+}

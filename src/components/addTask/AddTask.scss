@@ -1,0 +1,38 @@
+.addTask {
+    padding: 2.2rem;
+
+    form {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+
+        .input_fields {
+            display: flex;
+            flex-direction: column;
+
+            input {
+                padding: 0.9rem 1.5rem;
+                width: 30rem;
+                margin-bottom: 1rem;
+                border-radius: 12px;
+                outline: none;
+                border: none;
+                background-color: whitesmoke;
+
+                &::placeholder {
+                    font-weight: bold;
+                }
+            }
+        }
+
+        button {
+            padding: 0.5rem 3rem;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+            background-color: green;
+            border-radius: 8px;
+            color: white;
+        }
+    }
+}
